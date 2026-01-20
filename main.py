@@ -301,7 +301,7 @@ async def search_tours(payload: SearchRequest):
                 "path": "embedding",
                 "queryVector": query_vector,
                 "numCandidates": 100,
-                "limit": 3
+                "limit": 2
             }
         },
         {
